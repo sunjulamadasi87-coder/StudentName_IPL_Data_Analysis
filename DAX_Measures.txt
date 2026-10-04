@@ -1,0 +1,11 @@
+IPL Performance Analytics Dashboard — DAX Measures
+
+Total Matches = COUNTROWS(IPL_Cleaned)
+Total Runs = SUM(IPL_Cleaned[Total_Runs])
+Total Wickets = SUM(IPL_Cleaned[Total_Wickets])
+Total Teams = DISTINCTCOUNT(Team_Wins[Team])
+Total Players = DISTINCTCOUNT(Top_Batsmen[Batter])
+Average Runs per Match = DIVIDE([Total Runs], [Total Matches])
+Average Winning Margin = AVERAGE(MatchData[Result_Margin])
+
+Recommended visuals: KPI cards, matches by season, team wins, top 10 batsmen, top 10 bowlers, runs by season, toss decision donut, Player of Match bar, venue analysis, season slicer/team slicer/venue slicer.

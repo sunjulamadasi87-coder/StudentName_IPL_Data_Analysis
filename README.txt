@@ -1,0 +1,1 @@
+Native .pbix files must be saved from Power BI Desktop. This package contains the cleaned analytical CSVs, DAX measures and build specification needed to create the PBIX dashboard.

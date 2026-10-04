@@ -1,0 +1,9 @@
+1. Open Power BI Desktop.
+2. Get Data → Text/CSV and import Dataset/IPL_Cleaned.csv, Team_Wins.csv, Top_Batsmen.csv, Top_Bowlers.csv, Player_of_Match.csv and Toss_Analysis.csv.
+3. Create the DAX measures in DAX_Measures.txt.
+4. Add a title: IPL Performance Analytics Dashboard.
+5. Add KPI cards: Total Matches, Total Runs, Total Wickets, Total Teams, Total Players, Average Runs per Match.
+6. Add charts matching the Python visualizations.
+7. Add slicers for Season, Team and Venue.
+8. Use a clean 16:9 page, aligned cards, descriptive titles and consistent number formatting.
+9. Save as PowerBI/IPL_Analytics_Dashboard.pbix.
